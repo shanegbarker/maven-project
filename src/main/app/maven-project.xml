@@ -40,6 +40,6 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
 	<flow name="mavenFlow">
 		<http:listener config-ref="HTTP_Listener_Configuration"
 			path="/hello" doc:name="HTTP" />
-		<set-payload value="Hello World" doc:name="Set Payload" />
+		<set-payload value="Hello World!" doc:name="Set Payload" />
 	</flow>
 </mule>
